@@ -165,14 +165,10 @@ html {
   @media (max-width: 480px) {
     .logo-grab {
       display: block;
-      position: absolute;
-      padding: 0;
-      margin: 0;
-      top: 40px;
+      position: static;
       width: 80%;
-      left: 0;
-      right: 0;
       margin: auto;
+      margin-top: 40px;
       z-index: 0; } }
 
 .wrapper svg.background {
